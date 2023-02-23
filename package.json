@@ -1,0 +1,28 @@
+{
+	"name": "test-app",
+	"version": "1.0.0",
+	"main": "web/index.js",
+	"license": "UNLICENSED",
+	"scripts": {
+		"shopify": "shopify",
+		"build": "shopify app build",
+		"dev": "shopify app dev",
+		"info": "shopify app info",
+		"generate": "shopify app generate",
+		"deploy": "shopify app deploy",
+		"prepare": "husky install"
+	},
+	"dependencies": {
+		"@shopify/app": "3.43.0",
+		"@shopify/cli": "3.43.0"
+	},
+	"author": "iamanam",
+	"devDependencies": {
+		"eslint-config-prettier": "^8.6.0",
+		"husky": "^8.0.3",
+		"lint-staged": "^13.1.2",
+		"prettier": "2.8.4"
+	},
+	"lint-staged": {
+	}
+}
