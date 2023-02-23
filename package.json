@@ -24,5 +24,7 @@
 		"prettier": "2.8.4"
 	},
 	"lint-staged": {
+		"web/**/*.{js,jsx,ts,tsx}": "eslint --cache --fix",
+		"web/**/*.{js,jsx,ts,tsx,css,scss,md}": "prettier --write --ignore-unknown"
 	}
 }
